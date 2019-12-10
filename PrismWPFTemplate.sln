@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.645
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrismWPFSample", "PrismWPFSample\PrismWPFSample.csproj", "{7BB71951-E8CC-4580-8F11-208126E80AB8}"
+	ProjectSection(ProjectDependencies) = postProject
+		{C28AAB63-029E-4C59-9A89-C9016515DBD0} = {C28AAB63-029E-4C59-9A89-C9016515DBD0}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CommonModels", "CommonModels\CommonModels.csproj", "{ABF614CF-0D8B-4B8B-BD30-FA9B35DFCBCC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TraceListeners", "TraceListeners\TraceListeners.csproj", "{8FCE4C2B-2DCE-4A0E-A88A-AAAE8B4DF7A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModuleA", "ModuleA\ModuleA.csproj", "{C28AAB63-029E-4C59-9A89-C9016515DBD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Template", "Template", "{015FF6C0-A2C0-4D41-A7C8-0652187E8C95}"
+	ProjectSection(SolutionItems) = preProject
+		PrismWpfApp.zip = PrismWpfApp.zip
+		PrismWPFModule.zip = PrismWPFModule.zip
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7BB71951-E8CC-4580-8F11-208126E80AB8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BB71951-E8CC-4580-8F11-208126E80AB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BB71951-E8CC-4580-8F11-208126E80AB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BB71951-E8CC-4580-8F11-208126E80AB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABF614CF-0D8B-4B8B-BD30-FA9B35DFCBCC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABF614CF-0D8B-4B8B-BD30-FA9B35DFCBCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABF614CF-0D8B-4B8B-BD30-FA9B35DFCBCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABF614CF-0D8B-4B8B-BD30-FA9B35DFCBCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FCE4C2B-2DCE-4A0E-A88A-AAAE8B4DF7A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FCE4C2B-2DCE-4A0E-A88A-AAAE8B4DF7A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FCE4C2B-2DCE-4A0E-A88A-AAAE8B4DF7A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FCE4C2B-2DCE-4A0E-A88A-AAAE8B4DF7A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C28AAB63-029E-4C59-9A89-C9016515DBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C28AAB63-029E-4C59-9A89-C9016515DBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C28AAB63-029E-4C59-9A89-C9016515DBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C28AAB63-029E-4C59-9A89-C9016515DBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = en-001
+		SolutionGuid = {9A93DB3B-89A8-4796-B697-72FB2F1AF0B6}
+		RESX_ResXSortingComparison = Ordinal
+		RESX_SortFileContentOnSave = True
+	EndGlobalSection
+EndGlobal
